@@ -16,7 +16,7 @@ export default function Index() {
       className="bg-slate-200"
       showsVerticalScrollIndicator={false}
     >
-      <View className="w-full px-4" style={{ marginTop: statusBarHeight + 8 }}>
+      <View className="w-full px-4" style={{ marginTop: statusBarHeight }}>
         <Header />
         <Banner />
         <Search />
